@@ -1,0 +1,471 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/*landing*/
+header .carousel-inner .item{
+  height: 100vh;
+}
+.navbar-inverse {
+background-color: transparent;
+border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+color: #fff;
+font-family: 'Alfa Slab One', cursive;
+font-size: 25px;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #fff;
+}
+/*animaciones*/
+/*
+.bg .animated bounceInRight{
+  animation-delay: 1s;
+}
+
+.bg .animated bounceInLeft {
+  animation-delay: 2s
+}
+h2 .bg .animated bounceInLeft{
+  animation-delay: 3s
+}*/
+
+.bg{
+  background-image: url(../img/hero2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.red{
+  color: rgb(188, 60, 60);
+}
+.btn-primary {
+  color: #fff;
+  background-color: #337ab773;
+  border-color: #2e6da4;
+  margin: 15px;
+  width: 150px;
+}
+a.btn.btn-primary.ingreso {
+  width: 150px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  margin-top: 9px;
+}
+.navbar-header {
+  margin-top: 9px;
+}
+
+/*.bg-1{
+  background-image: url(../img/hero.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.bg-1 .animated bounceInRight{
+  animation-delay: 1s;
+}
+.bg-1 .animated bounceInLeft{
+  animation-delay: 2s;
+}*/
+
+
+.carousel-caption{
+  padding-bottom: 250px;
+  text-align: left;
+  left: 13%;
+}
+.carousel-caption h2 {
+font-size: 50px;
+/*text-transform: uppercase;*/
+font-family: 'Alfa Slab One', cursive;
+
+}
+.carousel-caption .btn {
+display: inline-block;
+margin-top: 15px;
+}
+.carousel-control.right{
+  background-image: none;
+}
+.carousel-control.left{
+  background-image: none;
+}
+
+@media (max-width:767px){
+  .bg {
+background-position: 65%;
+}
+  .carousel-caption {
+padding-bottom: 140px;
+      left: 5%;
+}
+  .carousel-caption h1 {
+font-size: 20px;
+}
+  .carousel-caption h3 {
+font-size: 15px;
+}
+}
+div#bs-promo-navbar-collapse-1 {
+  background-color: black;
+
+}
+a.navbar-brand {
+  display: flex;
+  margin: 10px; 
+}
+
+/*Pormociones*/
+nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse {
+  background-color: black;
+}
+
+/*seccion Promociones*/
+.grid-container{
+  display: grid;
+
+  grid-template-columns:415px 415px 415px;
+  grid-template-rows: 110px auto auto auto;
+  justify-items: center;
+  justify-content: center;
+  padding: 15px;   
+
+}
+
+ul.nav.navbar-nav.navbar-right {
+  margin: 10px;
+}
+
+.item1 {
+  background: url(../img/cartier.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;;
+  height: 280px;;
+  margin: 15px;
+  line-height: 150px;
+}
+
+
+.item1 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.item1text{
+  margin: 15px;
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+  width: 400px;
+
+}
+
+
+.item2 {
+  background-image: url(../img/panarai.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;
+  height: 280px;
+  margin: 15px;
+  line-height: 150px;
+}
+
+.item2text{
+  margin: 15px;
+  text-align: center;
+  border-left: solid .10rem grey;
+  border-right: solid .10rem grey;
+  padding: 15px;
+  justify-content: center;
+  width: 410px;
+
+}
+
+.item2 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.item2 h3 {
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.item3 {
+  background-image: url(../img/rolex.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;
+  height: 280px;
+  margin: 15px;
+  line-height: 150px; 
+}
+
+.item3text{
+  margin: 15px;
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+  width: 400px;
+
+}
+
+
+.item1 h3 {
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.item3 h3 {
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.item3 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.item4 {
+ 
+  background-size: cover;
+  background-position: top center;
+  margin: 15px;
+  line-height: 150px;
+
+}
+
+.item5 {
+  
+  background-size: cover;
+  background-position: top center;
+  margin: 15px;
+  line-height: 150px;
+}
+
+.item6 {
+  text-align: center;
+  padding: 15px;
+
+}
+
+.item7 {
+  background-size: cover;
+  background-position: top center;
+  margin: 15px;
+  line-height: 150px;
+}
+
+.grid-top-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  padding: 15px;
+
+}
+h5#desc-columna {
+  font-size: 18px;
+}
+section.grid-top-container {
+  margin-top: 6%;
+}
+/*footer secciones*/
+footer {
+  background-color: rgb(70, 68, 68);
+  margin: 0px;
+  height: 300px;
+}
+
+.footer-nav{
+  margin: 10rem;
+  padding: 15px;
+}
+
+.footer-nav li{
+  list-style: none;
+}
+
+.footer-nav li a{
+  text-decoration: none;
+  color: white;
+  padding: 2rem;   
+}
+.footer-rating{
+  background-color: black;
+
+  text-align: center;
+  color: white;
+}
+ul.footer-nav {
+  margin: 10px;
+}
+/*Formulario de registro*/
+.register-photo {
+  background:#f1f7fc;
+  padding:80px 0;
+}
+
+.register-photo .image-holder {
+  display:table-cell;
+  width:auto;
+  background:url(../img/rolex-registro.jpg);
+  background-size:cover;
+}
+
+.register-photo .form-container {
+  display:table;
+  max-width:900px;
+  width:90%;
+  margin:0 auto;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.register-photo form {
+  display:table-cell;
+  width:400px;
+  background-color:#ffffff;
+  padding:40px 60px;
+  color:#505e6c;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding:40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size:24px;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+.register-photo form .form-control {
+  border:none;
+  border-bottom:1px solid #dfe7f1;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:6px;
+  height:40px;
+}
+
+.register-photo form .form-check {
+  font-size:13px;
+  line-height:20px;
+}
+
+.register-photo form .btn-primary {
+  background:#0f00ff91;;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:35px;
+  text-shadow:none;
+  outline:none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background:#eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+  transform:translateY(1px);
+}
+
+.register-photo form .already {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#6f7a85;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+
+/*productos*/
+
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mb-50{
+  margin-bottom: 50px;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  
+  border-radius: .1875rem;
+}
+
+.card-img-actions {
+  position: relative;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 2.25rem;
+  text-align: center;
+}
+
+.card-img{
+
+  width: 350px;
+}
+
+.star{
+      color: red;
+}
+
+.bg-cart {
+  background-color:#0f00ff91;;
+  color:#fff;
+}
+
+.bg-cart:hover {
+  
+  color:#fff;
+}
+
+.bg-buy {
+  background-color:green;
+  color:#fff;
+  padding-right: 29px;
+}
+.bg-buy:hover {
+  
+  color:#fff;
+}
+
+a{
+
+  text-decoration: none !important;
+}
+
