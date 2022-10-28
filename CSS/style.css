@@ -5,7 +5,10 @@ h1.brand {
   font-size: 30px;
   display: contents;
 }
-button.btn.btn-success.text-center {
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
     margin-top: 15px;
 }
 /*landing*/
