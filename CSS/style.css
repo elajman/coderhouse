@@ -301,7 +301,7 @@ a{
   justify-content: center;
 }
 .item1 {
-  background-image: url(/img/panarai.jpg);
+  background-image: url(../img/panarai.jpg);
   background-size: cover;
   background-position: top center;
   width: 400px;
@@ -314,7 +314,7 @@ a{
   margin-right: 15px;
 }
 .item2 {
-  background-image: url(/img/cartier.jpg);
+  background-image: url(../img/cartier.jpg);
   background-size: cover;
   background-position: top center;
   width: 400px;
@@ -327,7 +327,7 @@ a{
   margin-right: 15px;
 }
 .item3 {
-  background-image: url(/img/rolex.jpg);
+  background-image: url(../img/rolex.jpg);
   background-size: cover;
   background-position: top center;
   width: 400px;
@@ -340,7 +340,7 @@ a{
   margin-right: 15px;
 }
 .item4 {
-  background-image: url(/img/ubicacion.jpeg);
+  background-image: url(../img/ubicacion.jpeg);
   background-size: cover;
   background-position: top center;
   width: 400px;
@@ -366,7 +366,7 @@ a{
   margin-right: 15px;
 }*/
 .item6 {
-  background-image: url(/img/sevicio.jpg);
+  background-image: url(../img/sevicio.jpg);
   background-size: cover;
   background-position: top center;
   width: 400px;
