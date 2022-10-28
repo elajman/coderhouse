@@ -1,6 +1,11 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+h1.brand {
+  font-size: 30px;
+  display: contents;
+}
+
 /*landing*/
 header .carousel-inner .item{
   height: 100vh;
@@ -69,21 +74,7 @@ margin-top: 15px;
   background-image: none;
 }
 
-@media (max-width:767px){
-  .bg {
-background-position: 65%;
-}
-  .carousel-caption {
-padding-bottom: 140px;
-      left: 5%;
-}
-  .carousel-caption h1 {
-font-size: 20px;
-}
-  .carousel-caption h3 {
-font-size: 15px;
-}
-}
+
 div#bs-promo-navbar-collapse-1 {
   background-color: black;
 
@@ -170,6 +161,9 @@ ul.footer-nav {
   .register-photo form {
     padding:40px;
   }
+  .logos-top{
+    display: none;
+  }
 }
 
 .register-photo form h2 {
@@ -221,7 +215,10 @@ ul.footer-nav {
   opacity:0.9;
   text-decoration:none;
 }
-
+.logos-top {
+    margin-top: 2%;
+    width: 80%;
+}
 
 /*productos*/
 
@@ -427,9 +424,9 @@ section.grid-top-container {
   font-weight: bold;
   padding: 10px;
   margin: auto;
-  font-size: 45px;
+ 
   background-color: #ffffffb0;
-  height: 50%;
+  height: 21%;
   width: 100%;
 }
 .item6 h3 {
@@ -437,9 +434,9 @@ section.grid-top-container {
   font-weight: bold;
   padding: 10px;
   margin: auto;
-  font-size: 45px;
+
   background-color: #ffffffb0;
-  height: 50%;
+  height: 21%;
   width: 100%;
 }
 h5#desc-columna {
@@ -448,11 +445,7 @@ h5#desc-columna {
   margin-left: 10%;
   margin-right: 10%;
 }
-input#button-texto {
-  margin-top: 8%;
-  margin-left: 10%;
-  margin-right: 3%;
-}
+
 .item5 {
   margin-top: 10%;
 }
@@ -460,7 +453,7 @@ input#button-texto {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-main{
+main {
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -517,6 +510,56 @@ main{
   margin: 0.3em 0;
 }
 
+.footer-titulos{
+  color: white;
+}
+
+h3.text-center {
+  font-weight: bold;
+}
+a.boton-texto {
+  color: black;
+}
+button.btn.btn-success.text-center {
+  margin-top: 15px;
+}
+.logos-top-hero {
+  margin-top: 4%;
+  align-self: center;
+}
+@media (max-width:1788px){
+  .item4 h2{
+    display: none;
+  }
+  .item6 h3{
+    display: none;
+  }
+  .medios-pago{
+    display: none;
+  }
+
+}
+@media (max-width:767px){
+  .bg {
+background-position: 65%;
+}
+  .carousel-caption {
+padding-bottom: 140px;
+      left: 5%;
+}
+  .carousel-caption h1 {
+font-size: 20px;
+}
+  .carousel-caption h3 {
+font-size: 15px;
+}
+.logos-top{
+  display: none;
+}
+.medios-pago{
+  display: none;
+}
+}
 @media (max-width: 550px) {
   .small-50 {
     width: 50%;  
@@ -533,7 +576,4 @@ main{
   .footer-col { 
     border: none;
   }
-}
-.footer-titulos{
-  color: white;
 }
