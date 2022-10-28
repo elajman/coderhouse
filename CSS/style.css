@@ -5,7 +5,9 @@ h1.brand {
   font-size: 30px;
   display: contents;
 }
-
+button.btn.btn-success.text-center {
+    margin-top: 15px;
+}
 /*landing*/
 header .carousel-inner .item{
   height: 100vh;
