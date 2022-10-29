@@ -108,6 +108,9 @@ footer {
   background-color: rgb(70, 68, 68);
   margin: 0px;
   height: 300px;
+  
+  margin-bottom: 0%;
+
 }
 
 .footer-nav{
@@ -139,12 +142,34 @@ ul.footer-nav {
   padding:80px 0;
 }
 
-.register-photo .image-holder {
+.register-photo .image-holder-ubicacion {
+  display:table-cell;
+  width:auto;
+  background:url(../img/google-maps-bs-as.jpg);
+  background-size:cover;
+}
+.register-photo .image-holder-registro {
   display:table-cell;
   width:auto;
   background:url(../img/rolex-registro.jpg);
   background-size:cover;
 }
+.register-photo .image-holder-contacto {
+  display:table-cell;
+  width:auto;
+  background:url(../img/contactanos_1.jpg);
+  background-size:cover;
+}
+.register-photo .image-holder-servicio{
+  display:table-cell;
+  width:auto;
+  background:url(../img/rolex-registro.jpg);
+  background-size:cover;
+}
+
+
+
+
 
 .register-photo .form-container {
   display:table;
@@ -444,6 +469,7 @@ section.grid-top-container {
 .item1 h3{
   color: white;
   padding: 10px;
+  text-align: left; 
 }
 .item1 h3 a{
   color: white;
@@ -452,13 +478,17 @@ section.grid-top-container {
 .item2 h3{
   color: white;
   padding: 10px;
+  text-align: left; 
 }
 .item2 h3 a{
-  color: white;   
+  color: white;  
+  
 }
 .item3 h3{
   color: white;
   padding: 10px;
+  text-align: left;
+ 
 }
 .item3 h3 a{
   color: white;
@@ -497,9 +527,33 @@ h5#desc-columna {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
+.item7 h3{
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.item7 h3 a{
+  color: white;
+}
+.item8 h3{
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.item8 h3 a{
+  color: white;
+}
 main {
   margin-left: 10%;
   margin-right: 10%;
+}
+.item9 h3{
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.item9 h3 a{
+  color: white;
 }
 .logos-top {
   margin-top: 2%;
