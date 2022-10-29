@@ -166,10 +166,12 @@ ul.footer-nav {
   background:url(../img/rolex-registro.jpg);
   background-size:cover;
 }
-
-
-
-
+.register-photo .image-holder-service{
+  display:table-cell;
+  width:auto;
+  background:url(../img/service-tec.jpg);
+  background-size:cover;
+}
 
 .register-photo .form-container {
   display:table;
@@ -527,18 +529,24 @@ h5#desc-columna {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-.item7 h3{
+.item7 h3 {
   color: white;
   text-align: left;
   padding: 10px;
+  background-color: #808080c2;
+  align-self: self-start;
+  font-weight: boler;
 }
 .item7 h3 a{
   color: white;
 }
-.item8 h3{
+.item8 h3 {
   color: white;
   text-align: left;
   padding: 10px;
+  background-color: #808080c2;
+  align-self: self-start;
+  font-weight: boler;
 }
 .item8 h3 a{
   color: white;
@@ -547,11 +555,15 @@ main {
   margin-left: 10%;
   margin-right: 10%;
 }
-.item9 h3{
+.item9 h3 {
   color: white;
   text-align: left;
   padding: 10px;
+  background-color: #808080c2;
+  align-self: self-start;
+  font-weight: boler;
 }
+
 .item9 h3 a{
   color: white;
 }
@@ -578,7 +590,7 @@ main {
   display: inline-block;
   padding: 0.5em 0.1em 0.5em 1em;
   box-sizing: border-box;
-  border-right: solid 1px #bbb;
+ 
 }
 .footer-col:nth-child(4) {
   border: none;
@@ -632,9 +644,9 @@ button.btn.btn-success.text-center {
   .item6 h3{
     display: none;
   }
-  .medios-pago{
+  /*.medios-pago{
     display: none;
-  }
+  }*/
 
 }
 @media (max-width:767px){
@@ -677,4 +689,12 @@ font-size: 15px;
 }
 .space{
   height: 10px;
+}
+.medios-pago {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body.bg-light.text-center {
+  background-color: #80808021;
 }
