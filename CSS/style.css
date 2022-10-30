@@ -88,6 +88,10 @@ a.navbar-brand {
   display: flex;
   margin: 10px; 
 }
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+  list-style: none;
+}
 
 /*Pormociones*/
 nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse {
