@@ -107,9 +107,7 @@ ul.nav.navbar-nav.navbar-right {
 footer {
   background-color: rgb(70, 68, 68);
   margin: 0px;
-  height: 300px;
   
-  margin-bottom: 0%;
 
 }
 
@@ -505,7 +503,7 @@ section.grid-top-container {
   height: 21%;
   width: 100%;
 }
-.item6 h3 {
+.item6 h2 {
   color: rgb(22 20 20);
   font-weight: bold;
   padding: 10px;
@@ -641,7 +639,7 @@ button.btn.btn-success.text-center {
   .item4 h2{
     display: none;
   }
-  .item6 h3{
+  .item6 h2{
     display: none;
   }
   /*.medios-pago{
@@ -697,4 +695,10 @@ font-size: 15px;
 
 .card-body.bg-light.text-center {
   background-color: #80808021;
+}
+.container.text-center {
+  text-align: -webkit-center;
+}
+strong#titulo-texto {
+  font-size: 20px;
 }
