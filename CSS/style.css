@@ -131,7 +131,7 @@ footer {
 }
 .footer-rating{
   background-color: black;
-  height: 60px;
+  padding: 15px;
   text-align: center;
   color: white;
 }
@@ -323,6 +323,9 @@ a{
 }
 
 /*promociones banner imagenes*/
+section.cat-promo {
+  margin-bottom: 5%;
+}
 .container-lg{
   padding: 20px;
 }
@@ -594,14 +597,38 @@ main {
   
 }
 /*footer*/
+h6.footer-text {
+  text-align: right;
+  color: white;
+  font-size: 11px;
+}
+h4.footer-text {
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  max-width: fit-content;
+  padding: 5px;
+}
+.row-stars {
+  display: flex;
+  justify-content: space-around;
+  align-items: self-start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.footer-col.large-25.small-50.tiny-100.ta-l.flt {
+  padding: 30px;
+}
+
 .footer-col a {
   color: rgba(255, 252, 252, 0.75);
 }
 
-/*.content {
-  height: 80vh;
-  background: #ccc;
-}*/
+p#seguinos {
+  color: white;
+}
 
 .footer-content-wrapper {
   width: 80%;
@@ -666,11 +693,8 @@ button.btn.btn-success.text-center {
   .item6 h2{
     display: none;
   }
-  /*.medios-pago{
-    display: none;
-  }*/
-
 }
+
 @media (max-width:767px){
   .bg {
 background-position: 65%;
