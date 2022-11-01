@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-	
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <header>
@@ -27,55 +26,50 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/reloj.png" alt="logo">Time-Finder<span class="red">&</span>co.</a>
+                    <a class="navbar-brand" href="../index.html"><img src="../img/reloj.png" alt="logo">Time-Finder<span class="red">&</span>co.</a>
                 </div>
 
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li><a class="nav-link" href="productos.html">Productos</a></li>
-                      <li><a class="nav-link" href="promociones.html">Promociones</a></li>
-                      <li><a class="nav-link" href="quienesSomos.html">Quienes Somos</a></li>
-                      <li class="nav-item dropdown" >
-                        <a class="nav-link dropwon-toggle"  data-bs-toggle="dropdown" role="button" aria-expanded="false">Servicios &#8227;</a>
-                      <div class="dropdown-menu" aria-labelledby="btn-dropdown-contacto">
-                        <ul>
-                          <li><a href="servicios.html" class="dropdown-item">Servicios</a></li>
-                          <li><a href="ubicacion.html" class="dropdown-item">Ubicacion</a></li>  
-                        </ul>
-                      </li>
-                      <li><a class="nav-link" href="index.html">Inicio</a></li>
-                      <a href="registro.html" class="btn btn-primary">Registrate</a>
-                  </ul>
-              </div>
-          </div>
-      </nav>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="promociones.html">Promociones</a></li>
+                        <li><a href="quienesSomos.html">Quienes Somos</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="./index.html">Inicio</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
    
-    <main>     
-     
+    <main>
         <section class="grid-top-container">
-            <div class="logos-top-productos"><img src="img/logos.jpg" alt=""> </div>
+            <div class="logos-top-productos"><img src="../img/logos.jpg" alt=""> </div>
         </section>
-    </section>
+     
+
+
     <div class="register-photo">
-      <div class="form-container">
-          <div class="image-holder-contacto"></div>
-          <form method="post">
-              <h2 class="text-center"><strong>Contactanos</strong></h2>
-              
-              <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre"></div>
-              <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-              <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono"></div>
-              
-              <label for="mensaje-contacto">Dejanos tu Mensaje:</label>
-              <textarea id="mensaje-contacto" name="w3review" rows="4" cols="30"></textarea>
-              <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Enviar</button></div>
-            </form>
-      </div>
-  </div>
-  <section>
+        <div class="form-container">
+            <div class="image-holder-registro"></div>
+            <form method="post">
+                <h2 class="text-center"><strong>Crear</strong> una cuenta.</h2>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repetir)"></div>
+                <div class="form-group">
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox" required>Estoy deacuerdo con las condiciones.</label></div>
+                </div>
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Registrate</button></div><a href="#" class="already">Ya tiene una cuenta? Ingrese aqui.</a></form>
+        </div>
+    </div>
+    
+
     </main>
+       
     <footer>
         <div class="content"></div>
       
@@ -118,8 +112,7 @@
           </div>
           <div class="clearfix"></div>
         </footer>
- <!-- JavaScript Bundle with Popper -->
+         <!-- JavaScript Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
-
 </body>
 </html>
