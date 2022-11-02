@@ -744,4 +744,7 @@ font-size: 15px;
 .container.text-center {
   text-align: -webkit-center;
 }
+i {
+  margin-right: 10px;
+}
 
