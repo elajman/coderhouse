@@ -1,0 +1,77 @@
+/*productos*/
+.card{
+    overflow: hidden;
+  }
+  .card img{
+    transition: transform .5s ease;
+  }
+  .card:hover img{
+    transform: scale(1.1);
+  }
+  .card-body.bg-light.text-center {
+    background-color: #80808021;
+  }
+  .mt-50{
+    margin-top: 50px;
+  }
+  
+  .mb-50{
+    margin-bottom: 50px;
+  }
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    
+    border-radius: .1875rem;
+  }
+  
+  .card-img-actions {
+    position: relative;
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2.25rem;
+    text-align: center;
+  }
+  
+  .card-img{
+  
+    width: 350px;
+  }
+  
+  .star{
+        color: red;
+  }
+  
+  .bg-cart {
+    background-color:#0f00ff91;;
+    color:#fff;
+  }
+  
+  .bg-cart:hover {
+    
+    color:#fff;
+  }
+  
+  .bg-buy {
+    background-color:green;
+    color:#fff;
+    padding-right: 29px;
+  }
+  .bg-buy:hover {
+    
+    color:#fff;
+  }
+  
+  a{
+  
+    text-decoration: none !important;
+  }

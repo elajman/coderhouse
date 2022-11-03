@@ -1,0 +1,259 @@
+
+/*promociones banner imagenes*/
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin-top: 15px;
+}
+section.cat-promo {
+    margin-bottom: 5%;
+  }
+  .container-lg{
+    padding: 20px;
+  }
+  .container-lg.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item1 {
+    background-image: url(../img/panarai.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item1:hover{
+    background-image: url(../img/panarai-modified.jpg);
+  }
+  
+  .item2 {
+    background-image: url(../img/cartier.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item2:hover{
+    background-image: url(../img/cartier-modified.jpg);
+  }
+  
+  
+  .item3 {
+    background-image: url(../img/rolex.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item3:hover{
+    background-image: url(../img/rolex-modified.jpg);
+  }
+  .item4 {
+    background-image: url(../img/ubicacion.jpeg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  strong#titulo-texto {
+    font-size: 20px;
+  }
+  .item6 {
+    background-image: url(../img/sevicio.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item7 {
+    background-image: url(../img/Breitling.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item8 {
+    background-image: url(../img/patek-promo.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .item9 {
+    background-image: url(../img/panarai-promo.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 280px;
+    margin: 15px;
+    line-height: 150px;
+    display: flex;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  input#button-visita {
+    background-color: white;
+    color: black;
+  }
+ 
+  
+  .grid-top-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  section.grid-top-container {
+    margin-top: 6%;
+  }
+  .container-fluid.text-center {
+    margin-top: 4%;
+  }
+  .item1 h3{
+    color: white;
+    padding: 10px;
+    text-align: left; 
+  }
+  .item1 h3 a{
+    color: white;
+     
+  }
+  .item2 h3{
+    color: white;
+    padding: 10px;
+    text-align: left; 
+  }
+  .item2 h3 a{
+    color: white;  
+    
+  }
+  .item3 h3{
+    color: white;
+    padding: 10px;
+    text-align: left;
+   
+  }
+  .item3 h3 a{
+    color: white;
+  }
+  .item4 h2 {
+    color: rgb(22 20 20);
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+   
+    background-color: #ffffffb0;
+    height: 21%;
+    width: 100%;
+  }
+  .item6 h2 {
+    color: rgb(22 20 20);
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+  
+    background-color: #ffffffb0;
+    height: 21%;
+    width: 100%;
+  }
+  h5#desc-columna {
+    width: 85%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .item5 {
+    margin-top: 10%;
+  }
+  .item2-text{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .item7 h3 {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: #808080c2;
+    align-self: self-start;
+    font-weight: boler;
+  }
+  .item7 h3 a{
+    color: white;
+  }
+  .item8 h3 {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: #808080c2;
+    align-self: self-start;
+    font-weight: boler;
+  }
+  .item8 h3 a{
+    color: white;
+  }
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .item9 h3 {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    background-color: #808080c2;
+    align-self: self-start;
+    font-weight: boler;
+  }
+  
+  .item9 h3 a{
+    color: white;
+  }
+  .logos-top {
+    margin-top: 2%;
+  }

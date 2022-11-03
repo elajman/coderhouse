@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+$padding-i: 10px;
+
+i {
+    margin-right: $padding-i;
+}
+h1.brand {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    display: contents;
+}
+.img-logo{
+    margin-top: auto;
+    height: 38px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab773;
+    border-color: #2e6da4;
+    margin: 15px;
+    width: 150px;
+  }
+/*Nav*/
+  
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    }
+    .navbar-inverse {
+      .navbar-brand{
+          color: #fff;
+          font-family: 'Alfa Slab One', cursive;
+          font-size: 25px;  
+      } 
+    }
+    .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    }
+    .red{
+      color: rgb(188, 60, 60);
+    }
+    
+    a.btn.btn-primary.ingreso {
+      width: 150px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+      color: #fff;
+      margin-top: 9px;
+    }
+    .navbar-header {
+      margin-top: 9px;
+    }
+    
+    div#bs-promo-navbar-collapse-1 {
+      background-color: black;
+    
+    }
+    a.navbar-brand {
+      display: flex;
+      margin: 10px; 
+    }
+    ol ol, ol ul, ul ol, ul ul {
+      margin-bottom: 0;
+      list-style: none;
+    }
+    
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse {
+      background-color: black;
+    }
+    ul.nav.navbar-nav.navbar-right {
+      margin: 10px;
+    }
