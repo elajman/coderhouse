@@ -1,4 +1,5 @@
 /*productos*/
+
 .card{
     overflow: hidden;
   }
@@ -8,9 +9,7 @@
   .card:hover img{
     transform: scale(1.1);
   }
-  .card-body.bg-light.text-center {
-    background-color: #80808021;
-  }
+ 
   .mt-50{
     margin-top: 50px;
   }
@@ -75,3 +74,70 @@
   
     text-decoration: none !important;
   }
+  .rating .fa{
+    color: #ff523b;
+  }
+  .condicion{
+    line-height: 10px;
+    margin-top: 8px;
+  }
+  .categorias-texto {
+    text-align: center;
+    height: 60px;
+    margin: 2%;
+}
+.categorias-texto h4 {
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.grid-top-container-prod {
+  margin-top: 9%;
+  text-align: -webkit-center;
+}
+.item-omega {
+  background-image: url(../img/productos/categorias/omega.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;
+  height: 280px;
+  margin: 15px;
+  line-height: 150px;
+  display: flex;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item-iwc {
+  background-image: url(../img/productos/categorias/IWC_Portugieser_Chronograph_FI.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;
+  height: 280px;
+  margin: 15px;
+  line-height: 150px;
+  display: flex;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item-rolex {
+  background-image: url(../img/productos/categorias/Rolex-Logo.jpg);
+  background-size: cover;
+  background-position: top center;
+  width: 400px;
+  height: 280px;
+  margin: 15px;
+  line-height: 150px;
+  display: flex;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+strong.texto-marca {
+  font-size: 22px;
+  color: chocolate;
+}

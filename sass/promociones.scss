@@ -136,6 +136,7 @@ section.cat-promo {
     margin-left: 15px;
     margin-right: 15px;
   }
+ 
   input#button-visita {
     background-color: white;
     color: black;
@@ -257,3 +258,18 @@ section.cat-promo {
   .logos-top {
     margin-top: 2%;
   }
+  .rating-promo {
+    text-align: unset;
+    display: -webkit-inline-box;
+    padding: 8px;
+    color: #523b52;
+}
+h4#texto-destacados {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 30px;
+  color: #555;
+  font-size: 30px;
+  margin-top: 4%;
+}
