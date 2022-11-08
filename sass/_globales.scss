@@ -3,9 +3,18 @@ body{
     font-family: 'Montserrat', sans-serif;
   }
 $padding-i: 10px;
+body.body-patek {
+  background-color: black;
+}
+video#background_video_mobile_1_1_html5_api {
+  width: 99%;
+  margin: 10px;
+  margin-bottom: 5%;
+}
 
 i {
     margin-right: $padding-i;
+    font-size: 17px;
 }
 h1.brand {
     font-family: 'Montserrat';
@@ -73,3 +82,9 @@ h1.brand {
     ul.nav.navbar-nav.navbar-right {
       margin: 10px;
     }
+    input[type=checkbox], input[type=radio] {
+      margin: 4px 0 0;
+      margin-top: 1px\9;
+      line-height: normal;
+      margin: 10px;
+  }

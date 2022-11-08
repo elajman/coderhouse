@@ -5,7 +5,9 @@
 @use 'promociones';
 @use 'footer';
 @use 'productos';
-@use 'prodDetalle';
+@use './partials/variables';
+@use './partials/header';
+@use 'whatsapp-chat-support';
 
 
 

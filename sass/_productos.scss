@@ -107,6 +107,8 @@
   width: auto;
   margin-left: 15px;
   margin-right: 15px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
 .item-iwc {
@@ -121,9 +123,11 @@
   width: auto;
   margin-left: 15px;
   margin-right: 15px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
-.item-rolex {
+.item-rolex{
   background-image: url(../img/productos/categorias/Rolex-Logo.jpg);
   background-size: cover;
   background-position: top center;
@@ -135,9 +139,33 @@
   width: auto;
   margin-left: 15px;
   margin-right: 15px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
+.item-rolex:hover{
+  transform: scale(1.1);
+  opacity: 0.80;
+}
+.item-iwc:hover{
+  transform: scale(1.1);
+  opacity: 0.80;
+
+}
+.item-omega:hover{
+  transform: scale(1.1);
+  opacity: 0.80;
+}
+
 
 strong.texto-marca {
   font-size: 22px;
   color: chocolate;
+}
+.logo-patek {
+  margin-top: 4%;
+}
+h3.patek-text {
+  font-size: -webkit-xxx-large;
+  color: white;
+  font-family: auto;
 }
