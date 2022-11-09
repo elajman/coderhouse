@@ -39,7 +39,7 @@
                   <ul class="nav navbar-nav navbar-right">
                       <li><a class="nav-link" href="productos.html">Productos</a></li>
                       <li><a class="nav-link" href="promociones.html">Promociones</a></li>
-                      <li><a class="nav-link" href="quienesSomos.html">Quienes Somos</a></li>
+                      <li><a class="nav-link" href="patek.html">Patek Philipp</a></li>
                       <li class="nav-item dropdown" >
                         <a class="nav-link dropwon-toggle"  data-bs-toggle="dropdown" role="button" aria-expanded="false">Servicios &#8227;</a>
                       <div class="dropdown-menu" aria-labelledby="btn-dropdown-contacto">
@@ -65,16 +65,16 @@
     <div class="register-photo">
       <div class="form-container">
           <div class="image-holder-contacto"></div>
-          <form method="post">
+          <form method="post" action="./promociones.html">
               <h2 class="text-center"><strong>Contactanos</strong></h2>
               
-              <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre"></div>
-              <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-              <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono"></div>
+              <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre" required></div>
+              <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required></div>
+              <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono" required></div>
               
               <label for="mensaje-contacto">Dejanos tu Mensaje:</label>
               <textarea id="mensaje-contacto" name="w3review" rows="4" cols="30"></textarea>
-              <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Enviar</button></div>
+              <div class="form-group"><a href="#"><button class="btn btn-primary btn-block" type="submit">Enviar</button></a></div>
             </form>
       </div>
   </div>
