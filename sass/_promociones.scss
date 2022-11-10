@@ -17,8 +17,7 @@ section.cat-promo {
     align-items: center;
     justify-content: center;
   }
-  .item1 {
-    background-image: url(../img/panarai.jpg);
+  @mixin items {
     background-size: cover;
     background-position: top center;
     width: 400px;
@@ -28,7 +27,11 @@ section.cat-promo {
     display: flex;
     width: auto;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 15px; 
+  }
+  .item1 {
+    background-image: url(../img/panarai.jpg);
+    @include items();
   }
   .item1:hover{
     background-image: url(../img/panarai-modified.jpg);
@@ -36,16 +39,7 @@ section.cat-promo {
   
   .item2 {
     background-image: url(../img/cartier.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   .item2:hover{
     background-image: url(../img/cartier-modified.jpg);
@@ -54,87 +48,33 @@ section.cat-promo {
   
   .item3 {
     background-image: url(../img/rolex.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   .item3:hover{
     background-image: url(../img/rolex-modified.jpg);
   }
   .item4 {
     background-image: url(../img/ubicacion.jpeg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   strong#titulo-texto {
     font-size: 20px;
   }
   .item6 {
     background-image: url(../img/sevicio.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   .item7 {
     background-image: url(../img/Breitling.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   .item8 {
     background-image: url(../img/patek-promo.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
   .item9 {
     background-image: url(../img/panarai-promo.jpg);
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 280px;
-    margin: 15px;
-    line-height: 150px;
-    display: flex;
-    width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include items();
   }
  
   input#button-visita {
@@ -217,24 +157,23 @@ section.cat-promo {
     border-left: 1px solid black;
     border-right: 1px solid black;
   }
-  .item7 h3 {
+  
+  @mixin itemsh3 {
     color: white;
     text-align: left;
     padding: 10px;
     background-color: #808080c2;
     align-self: self-start;
     font-weight: boler;
+  }
+  .item7 h3 {
+    @include itemsh3();
   }
   .item7 h3 a{
     color: white;
   }
   .item8 h3 {
-    color: white;
-    text-align: left;
-    padding: 10px;
-    background-color: #808080c2;
-    align-self: self-start;
-    font-weight: boler;
+    @include itemsh3();
   }
   .item8 h3 a{
     color: white;
@@ -244,12 +183,7 @@ section.cat-promo {
     margin-right: 10%;
   }
   .item9 h3 {
-    color: white;
-    text-align: left;
-    padding: 10px;
-    background-color: #808080c2;
-    align-self: self-start;
-    font-weight: boler;
+    @include itemsh3();
   }
   
   .item9 h3 a{
