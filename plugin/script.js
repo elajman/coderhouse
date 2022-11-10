@@ -9,7 +9,20 @@ function alerta(){
         alert('Por favor ingrese Nombre y correo Valido, Gracias')
     }   
     else{
-        alert(`Gracias ${username.value} por susucribirse a nuestro Newsletter`)
+        alert(`Gracias ${username.value} por suscribirse a nuestro Newsletter`)
+        window.location.href = 'https://elajman.github.io/coderhouse/paginas/promociones.html'
+    }       
+}
+const nombre = document.getElementById('nombre')
+const correo = document.getElementById('correo')
+
+
+function contacto(){
+    if (nombre.value === '' || correo.value === '' || nombre.value == null || correo.value == null){
+        alert('Por favor ingrese Nombre y correo Valido, Gracias')
+    }   
+    else{
+        alert(`Gracias ${nombre.value} pronto un asesor se pondra en contacto`)
         window.location.href = 'https://elajman.github.io/coderhouse/paginas/promociones.html'
     }       
 }

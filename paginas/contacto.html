@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Time-Finder&co.</title>
+    <meta name="description" content="Venta y servicio autorizado de relojes de lujo">
+    <meta name="keywords" content="relojes, Rolex, Omega, IWC, service">  
+    <title>Time-Finder&co. mensaje-contacto</title>
+    <script defer src="../plugin/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -68,13 +71,13 @@
           <form method="post" action="./promociones.html">
               <h2 class="text-center"><strong>Contactanos</strong></h2>
               
-              <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre" required></div>
-              <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required></div>
-              <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono" required></div>
+              <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre" id="nombre"></div>
+              <div class="form-group"><input class="form-control" type="email" name="correo" placeholder="Email" id="correo"></div>
+              <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono"></div>
               
               <label for="mensaje-contacto">Dejanos tu Mensaje:</label>
               <textarea id="mensaje-contacto" name="w3review" rows="4" cols="30"></textarea>
-              <div class="form-group"><a href="#"><button class="btn btn-primary btn-block" type="submit">Enviar</button></a></div>
+              <a onclick="contacto()" href="#" class="btn btn-primary" type="submit">Enviar</a> 
             </form>
       </div>
   </div>
@@ -177,8 +180,8 @@
 </div>
 
 
-  <!-- jQuery 1.8+ -->
-<script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+  <!-- jQuery 1.8+ 
+<script src="plugin/components/jQuery/jquery-1.11.3.min.js"></script>-->
   <!-- Plugin JS file -->
 <script src="../plugin/components/moment/moment.min.js"></script>
 <script src="../plugin/components/moment/moment-timezone-with-data.min.js"></script> <!-- spanish language (es) -->
