@@ -754,6 +754,11 @@ footer {
   margin: 0px;
 }
 
+.footer-content-wrapper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1607843137);
+  border-top: 1px solid rgba(255, 255, 255, 0.3294117647);
+}
+
 /*productos*/
 .card {
   overflow: hidden;
