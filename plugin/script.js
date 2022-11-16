@@ -39,6 +39,22 @@ function ubicacion(){
 }
 
 
+
+const nombreServicio = document.getElementById('nombreServicio')
+const correoServicio = document.getElementById('correoServicio')
+const fechaServicio = document.getElementById('fechaServicio')
+
+
+function validarServicio(){
+    if (nombreServicio.value === '' || correoServicio.value === '' || nombreServicio.value == null || correoServicio.value == null || fechaServicio.value === ''|| fechaServicio.value == null){
+        alert('Por favor ingrese Nombre, correo y fecha de servicio Validos, Gracias')
+    }   
+    else{
+        alert(`Gracias ${nombreServicio.value} el dia ${fechaServicio.value} lo estaremos esperando para realizar servicio a su reloj, Gracias`)
+        window.location.href = 'https://elajman.github.io/coderhouse/paginas/promociones.html'
+    }       
+}
+
 /*Validacion con Mensaje*/
 /*form.addEventListener('submit', (e) => {
     let meesage = []

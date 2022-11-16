@@ -8,6 +8,7 @@
     <meta name="description" content="Venta y servicio autorizado de relojes de lujo">
     <meta name="keywords" content="relojes, Rolex, Omega, IWC, service">  
     <title>Time-Finder&co. -servicios</title>
+    <script defer src="../plugin/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -32,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./index.html"><img class="img-logo" src="../img/reloj.png" alt="logo"><h1 class="brand">Time-Finder<span class="red">&</span>co.</h1></a>
+                <a class="navbar-brand" href="../index.html"><img class="img-logo" src="../img/reloj.png" alt="logo"><h1 class="brand">Time-Finder<span class="red">&</span>co.</h1></a>
             </div>
 
             
@@ -82,16 +83,18 @@
             <div class="image-holder-service"></div>
             <form method="post">
                 <h2 class="text-center"><strong>Solicitar Presupuesto</strong></h2>
-                <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="Nombre" required></div>
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required></div>
-                <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono" required></div>
-                <div class="form-group"><input class="form-control" type="text" name="Marca" placeholder="Marca" required></div>
-                <div class="form-group"><input class="form-control" type="text" name="Modelo" placeholder="Modelo" required></div>
-                <div class="form-group"><input class="form-control" type="text" name="Referencia" placeholder="Referencia" required></div>
-                <div class="form-group"><input class="form-control" type="date" name="fecha" placeholder="Fecha de Service" required></div>
+                <div class="form-group"><input class="form-control" type="text" name="nombre" placeholder="* Nombre" id="nombreServicio"></div>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="* Email" id="correoServicio"></div>
+                <div class="form-group"><input class="form-control" type="text" name="telefono" placeholder="Telefono" id="telefonoServicio"></div>
+                <div class="form-group"><input class="form-control" type="text" name="Marca" placeholder="Marca" id="marca"></div>
+                <div class="form-group"><input class="form-control" type="text" name="Modelo" placeholder="Modelo" id="modelo"></div>
+                <div class="form-group"><input class="form-control" type="text" name="Referencia" placeholder="Referencia" id="referencia"></div>
+                <div class="form-group"><input class="form-control" type="date" name="fecha"  id="fechaServicio"></div>
                 <label for="mensaje-contacto">Dejanos tu Mensaje con comentarios adicionales:</label>
                 <textarea id="mensaje-contacto" name="w3review" rows="4" cols="30"></textarea>
-                <div class="form-group"><a href="#"><button class="btn btn-primary btn-block" type="submit">Enviar</button></a> </div>
+                <div class="form-group">
+                  <a onclick="validarServicio()" href="#" class="btn btn-primary btn-block" type="submit">Enviar</a> 
+                  <!--<a href="#"><button class="btn btn-primary btn-block" type="submit">Enviar</button></a>--> </div>
               </form>
         </div>
        <!--Productos destacados-->
