@@ -113,3 +113,8 @@
       margin-top: 2%;
       width: 80%;
   }
+  @media screen and (max-width: 860px){
+    .register-photo .image-holder-registro {
+       display: none;
+    }
+   }

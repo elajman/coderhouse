@@ -15,6 +15,8 @@ function alerta(){
 }
 const nombre = document.getElementById('nombre')
 const correo = document.getElementById('correo')
+const fecha = document.getElementById('fecha')
+const telefono = document.getElementById('telefono')
 
 
 function contacto(){
@@ -23,6 +25,15 @@ function contacto(){
     }   
     else{
         alert(`Gracias ${nombre.value} pronto un asesor se pondra en contacto`)
+        window.location.href = 'https://elajman.github.io/coderhouse/paginas/promociones.html'
+    }       
+}
+function ubicacion(){
+    if (nombre.value === '' || email.value === '' || nombre.value == null || email.value == null || telefono.value === ''|| fecha.value ==='' || telefono.value == null || fecha.value == null){
+        alert('Por favor ingrese Nombre, correo, telefono y fecha de visita Validos, Gracias')
+    }   
+    else{
+        alert(`Gracias ${nombre.value} el dia ${fecha.value} lo estaremos esperando, Gracias`)
         window.location.href = 'https://elajman.github.io/coderhouse/paginas/promociones.html'
     }       
 }
