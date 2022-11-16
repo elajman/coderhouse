@@ -2104,6 +2104,9 @@ img.prod-omega {
   .register-photo .image-holder-contacto {
     display: none;
   }
+  .register-photo .image-holder-contacto .mensaje {
+    display: inline-grid;
+  }
 }
 @media screen and (max-width: 860px) {
   .register-photo .image-holder-service {
